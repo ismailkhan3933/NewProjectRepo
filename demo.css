@@ -1,0 +1,196 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+background-image: url("donation.jpg");
+background-repeat: no-repeat;
+
+background-size: cover;
+
+}
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20p
+}
+.navbar ul li{
+	font-family:century;
+	font-size: 1.5rem;
+font-weight: bold;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: green;
+	padding: 8px 25px;
+	font-weight: bold;
+	
+	
+}
+.navbar ul li a:hover{
+	
+	color: red;
+	box-shadow: 0 0 10px white;
+}
+.content
+{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: #fff;
+	position: relative;
+}
+.content h1
+{
+	font-family: 'Time New Roman';
+	font-size: 120px;
+	padding-left:0px;
+	margin-top: 9%;
+letter-spacing: 9px;
+}
+.content .cn
+{
+	width: 160px;
+	height: 40px;
+	background: green;
+	border: none;
+
+}
+
+.content .cn a
+{
+	text-decoration: none;
+	color: white;
+	transition: .3s ease;
+	font-weight: bold;
+}
+.cn:hover
+{
+	background-color: black;
+}
+.form
+{
+	width: 350px;
+	height: 500px;
+	background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	position: fixed;
+	top: 50px;
+	left: 1400px;
+	border-radius: 26px;
+	padding:6px;
+}
+.form h2
+{
+width: 220px;
+font-family: sans-serif;
+text-align: center;
+color : #ff7200;
+font-size: 22px;
+background-color: white;
+border-radius :10px;
+margin :4px;
+padding:20px;
+}
+
+
+.form input
+{
+	width: 240px;
+	height: 35px;
+	border-top: none;
+	font-size: 15px;
+	margin-top: 30px;
+	background: transparent;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+    border-right: none;
+    border-left: none;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ff7200;
+}
+.form input:focus{
+	outline: none;
+}
+
+.btn{
+	width: 240px;
+	height: 40px;
+	background: orange;
+	border: none;
+	margin-top: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white ;
+	
+
+}
+
+.form .link{
+	font-family: Arial,Helvetica, sans-serif;
+	font-size: 17px;
+	padding-top: 20px;
+	text-align: center;
+
+}
+
+.form .link a{
+	text-decoration: none;
+	color: orange;
+}
+
+.liw{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+.icons a{
+	text-decoration: none;
+	color:#fff ;
+
+}
+.icons ion-icons{
+	color: #fff;
+	font-size: 30px;
+	padding-left: 14px;
+	padding-top: Spx;
+	transition:0.3s ease ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
